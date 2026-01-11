@@ -1,13 +1,13 @@
 import random
 for i in range(100):
     x=random.randrange(000,999)
-    print(" ✨✨✨✨✨✨✨welcome to our store ✨✨✨✨✨✨✨")
+    print(" ✨✨✨welcome to our store ✨✨✨")
     print(''' prices:  
           💄 lipstick = 140
           💎 primer = 120
          🎨 concealer =130''')
     name=input(" enter your name : ")
-    print(" welcome 😊 ",name)
+    print(" welcome  ",name)
     user_contact=eval(input(" enter your contact number"))
     if user_contact==9084414:
         print(" your OTP : ",x)
@@ -28,8 +28,9 @@ for i in range(100):
             total_bill=lipstick_bill+primer_bill+concealer_bill
             print(" YOUR TOTAL BILL : ",total_bill)
             
-            print(" .......🤩🤩🤩🤩🤩🤩🤩🤩🤩THANKYOU FOR SHOPPING🤩🤩🤩🤩🤩🤩🤩🤩🤩.....")
+            print(" .......🤩🤩🤩THANKYOU FOR SHOPPING🤩🤩🤩.....")
         else:
-            print(" invalid OTP 😠😠😠")
+            print(" invalid OTP ")
     else:
-        print(" invalid contact number 😵‍💫😵‍💫")
+
+        print(" invalid contact number ")
